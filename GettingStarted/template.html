@@ -13,26 +13,40 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <!-- add card to show new Bootstrap features -->
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="thumbnail.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-        <!-- uses the JS dependencies -->
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+    <div id="wrapper">
+      <div id="column-1">
+        <h1>Hello, world!</h1>
+        <!-- add card to show new Bootstrap features -->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="thumbnail.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <!-- uses the JS dependencies -->
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>    
           </div>
-        </div>    
+        </div>
       </div>
+      <div id="color-examples">
+        <h1 class="display-1 text-primary">Display 1: Primary</h1>
+        <h1 class="display-2 text-danger">Display 2: Danger</h1>
+        <h1 class="display-3 text-info">Display 3: Info</h1>
+        <h1 class="display-4 text-white bg-dark">Display 4: White On Black</h1>
+        <blockquote class="blockquote">
+          <p class="mb-0">Better to have loved and lost than never to have loved at all.</p>
+          <footer class="blockquote-footer">someone, <cite>Something</cite></footer>
+        </blockquote>
+      </div>    
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

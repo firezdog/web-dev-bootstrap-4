@@ -2,7 +2,25 @@ body {
     margin: 2rem;
 }
 
+#column-1 {
+    display: inline-block
+}
+
+#column-1 h1 {
+    margin-bottom: 2rem;
+}
+
 div.dropdown {
     margin-top: 1rem;
     margin-bottom: 7rem;
+}
+
+#color-examples {
+    margin-left: 2rem;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.text-white.bg-dark {
+    padding: 0.5rem;
 }
