@@ -30,6 +30,15 @@ Dependencies: jquery, popper, bootstrap (JS) and bootstrap CSS
 * relative unit which takes font-size of top el (16px), x rem = <e.g. 16px> * x
 * Root is set in \<html>
 ### Utilities
+* spacing
+* common property-value pairs
+* Display, position, shadows, spacing, etc.
+* Borders: add a border to an element.
+* m for margins, p for padding
+* t, b, l, r, x, y (top, bottom, left, right, left-right, top-bottom)
+* size 0-5
+* pt-0 = padding top 0 e.g.
+* $spacer is used to set the size (.25, .5, 1.5, 3) ($spacer = 1rem)
 ### Breakpoints
 ### Navbars
 ### Display

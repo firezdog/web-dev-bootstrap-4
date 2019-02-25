@@ -1,22 +1,26 @@
+/* 
+replaced with m-2 utility class
 body {
     margin: 2rem;
-}
+} */
 
 #column-1 {
     display: inline-block
 }
 
-#column-1 h1 {
-    margin-bottom: 2rem;
+#column-1 h1.border.rounded-circle {
+    /* replaced with mb-4 utility class
+    margin-bottom: 2rem; */
+    border-width: 2rem !important; /* border-width marked as !important in BS SCSS */
 }
 
-div.dropdown {
+/* div.dropdown {
     margin-top: 1rem;
     margin-bottom: 7rem;
-}
+} */
 
 #color-examples {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     vertical-align: top;
     display: inline-block;
 }
