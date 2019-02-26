@@ -40,6 +40,10 @@ Dependencies: jquery, popper, bootstrap (JS) and bootstrap CSS
 * pt-0 = padding top 0 e.g.
 * $spacer is used to set the size (.25, .5, 1.5, 3) ($spacer = 1rem)
 ### Breakpoints
+* responsiveness (xs screen size)
+* (default xs) 576px, sm 768px, md 992px, lg 1200px, + xl
+* add padding depending on the screen size
+* {prop}{sides}-{bp}-{size}
 ### Navbars
 ### Display
 ### Flexbox
