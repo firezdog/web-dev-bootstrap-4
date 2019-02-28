@@ -45,7 +45,22 @@ Dependencies: jquery, popper, bootstrap (JS) and bootstrap CSS
 * add padding depending on the screen size
 * {prop}{sides}-{bp}-{size}
 ### Navbars
-### Display
+* Behavior changes -- collapse break-points using .navbar-expand-{bp}
+* .navbar-light and .navbar-dark instead of .navbar-default
+* .navbar-toggler
+* no automatic margin-bottom (use utilities)
+#### Discussion
+.navbar sets margins and size.\
+.navbar-dark and .bg-dark set light text on dark bg\
+.navbar-brand is used for the title\
+
+data-toggle="collapse" tells BS jQuery that the element it is attached too causes a collapse toggle when clicked (in this case the button). data-target tells jQuery what element is subject to the toggle. .navbar-toggler applies the navbar styling to the toggle button. .navbar-toggle-icon styles the element it is attached too into a hamburger bar. \<span> is bland and well suited to the purpose, but you can use \<p> or \<div> as well. (Don't nest a \<button> in a \<button>, however.)
+
+.collapse indicates an initial state, "collapsed," for the indicated content (try putting it on any element in the scope of "nav"). .navbar-collapse makes the content appear below the navbar and not on its right side. The collapsed content needs an ID that accords with the data-target of the collapse-toggler.
+
+.nav-link affects the styling of the anchor tags (applies navbar stylings). Removing .nav-item from the \<li>'s does not appear to cause major problems.
+### Display Utility
+* replaces e.g. .hidden-sm with .d-{bp}-{v} e.g. .d-flex-sm
 ### Flexbox
 ### Navs
 ### Grid
