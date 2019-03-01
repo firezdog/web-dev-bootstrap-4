@@ -62,6 +62,14 @@ data-toggle="collapse" tells BS jQuery that the element it is attached too cause
 ### Display Utility
 * replaces e.g. .hidden-sm with .d-{bp}-{v} e.g. .d-flex-sm
 ### Flexbox
+Used to position elements on the page (in a "box"). Accessed through e.g. d-flex.  In a large box elements can be re-positioned vertically and horizontally. To do so, we make the parent container display as "flex". (Content is now stretched vertically to fill the box.)
+
+Main-axis and cross-axis (default left right and top bottom). 
+
+Justify-content applies to the main-axis.  "justify-content" positions on main-axis -- "start" puts content at left, "end" at right. "between" divides space evenly between elements (after first and before last) -- "around" divides elements evenly between space -- "center" centers them.
+
+Align-items applies to cross-axis. "start" puts them at top, "end" at bottom, "center" at the center.
+
 ### Navs
 ### Grid
 ### Pattern Project
