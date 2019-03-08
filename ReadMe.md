@@ -75,8 +75,9 @@ Left to right for main-axis and top to bottom as cross (default).  "flex-row-rev
 #### Responsiveness Example
 See "responsive-flex.html"
 
-
 ### Navs
+Bootstrap navbars were rewritten to use flexbox and replaced ".nav > li > a" with ".nav { .nav-item { .nav-link }}" nested (?) class structure. In the example (flex-nav.html) we use flexbox to move items in the navbar around.
+
 ### Grid
 ### Pattern Project
 ### Grid Flexbox
