@@ -15,6 +15,14 @@
 .nav li:hover a, a:hover {
   color: yellow;
 }
+li {
+  flex: 1;
+  text-align: center;
+  border: 1px solid green;
+}
+nav a {
+  border: 1px solid green;
+}
 </style>
 <div class="container">
   <h1 class="text-center display-4">Navs w/ Flex</h1>
@@ -34,7 +42,7 @@
     </li>
   </ul>
   <!-- alternate -- we don't need <ul> and <li> -->
-  <nav class="nav flex-column-reverse">
+  <nav class="nav mt-5 border border-primary flex-column-reverse">
     <a href="#" class="nav-link active">Active Link</a>
     <a href="#" class="nav-link">Link</a>
     <a href="#" class="nav-link">Link</a>
