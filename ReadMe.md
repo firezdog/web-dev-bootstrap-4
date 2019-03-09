@@ -74,11 +74,14 @@ Left to right for main-axis and top to bottom as cross (default).  "flex-row-rev
 #### Align Self
 #### Responsiveness Example
 See "responsive-flex.html"
-
 ### Navs
 Bootstrap navbars were rewritten to use flexbox and replaced ".nav > li > a" with ".nav { .nav-item { .nav-link }}" nested (?) class structure. In the example (flex-nav.html) we use flexbox to move items in the navbar around.
-
 ### Grid
+* Grid now uses flexbox. 
+* Grid now has "sm" tier (as always default is "xs") ("col-lg-3") (formerly this was "xs" so everything has shifted right).
+* if space is not specified, columns share between themselves (or share the remaining if in some cases it is).
 ### Pattern Project
+* uses "card" -- combo of "panels", "thumbnails", "wells"
+* no css (except for background image) -- all bootstrap classes
 ### Grid Flexbox
 ### Museum of Candy
