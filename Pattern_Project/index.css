@@ -15,3 +15,19 @@ body {
   background-size: 100%;
   text-shadow: 2px 2px black;
 }
+
+.card-body {
+  background: black;
+}
+
+.card-body p {
+  min-height: 275px;
+}
+
+.card-img-top {
+  min-height: 275px;
+}
+
+.col-12 {
+  margin-bottom: 2rem;
+}
