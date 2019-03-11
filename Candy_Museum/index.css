@@ -3,6 +3,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   min-height: 4000px;
+  background: #f7d3dc;
 }
 
 .navbar {
@@ -19,6 +20,11 @@ body {
 
 .navbar-brand {
   color: #8e5c64;
+  font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+  color: #8e5c64;
 }
 
 .nav-link {
@@ -28,4 +34,22 @@ body {
 
 .nav-link:hover {
   color: #8e5c64;
+}
+
+.header-text {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.header-text span {
+  color: #EA1C2C;
+}
+
+.header-img {
+  position: absolute;
+  top: -100px;
+  width: 100%;
 }
