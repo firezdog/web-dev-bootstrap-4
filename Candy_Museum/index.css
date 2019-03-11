@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 4000px;
+}
+
+.navbar {
+  background-color: #f7d3dc;
+  text-transform: uppercase;
+}
+
+.scrolled {
+  background-color: #e2b6d3;
+}
+
+.navbar-brand {
+  color: #8e5c64;
+}
+
+.nav-link {
+  color: #fff8fc;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #8e5c64;
+}
