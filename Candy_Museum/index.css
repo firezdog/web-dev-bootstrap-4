@@ -2,16 +2,19 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  height: 4000px;
+  min-height: 4000px;
 }
 
 .navbar {
   background-color: #f7d3dc;
   text-transform: uppercase;
+  transition: background-color 1s;
+  font-size: 1.5rem;
 }
 
 .scrolled {
   background-color: #e2b6d3;
+  transition: background-color 1s;
 }
 
 .navbar-brand {
