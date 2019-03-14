@@ -1,4 +1,4 @@
-const navbar = document.getElementById('navbar');
+const navbar = document.querySelector('.js-navbar');
 
 window.addEventListener('scroll', function(e) {
   const scrollTop = e.target.scrollingElement.scrollTop;
