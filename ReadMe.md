@@ -87,3 +87,4 @@ Bootstrap navbars were rewritten to use flexbox and replaced ".nav > li > a" wit
 * grid classes have display flex by default.
 ### Museum of Candy
 * You need ".navbar.navbar-expand" in order for .nav-item's to align horizontally.
+* .fixed-top is what allows the content below the header to poke up into the header.

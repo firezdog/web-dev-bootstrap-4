@@ -14,11 +14,10 @@ body {
 }
 
 .navbar-toggler {
-  margin-top: 0.5rem;
   margin-right: 0.5rem;
 }
 
-.scrolled {
+.navbar--scrolled {
   background-color: #e2b6d3;
   transition: background-color 1s;
 }
@@ -39,4 +38,13 @@ body {
 
 .nav-link:hover {
   color: #8e5c64 !important;
+}
+
+.header .__image {
+  width: 100%;
+}
+
+.header .col-md-6:nth-of-type(2) {
+  padding-right: 0;
+  padding-left: 0;
 }
