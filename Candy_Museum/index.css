@@ -23,6 +23,10 @@ body {
   transition: background-color 1s;
 }
 
+.nav-item, .nav-link {
+  width: fit-content;
+}
+
 .navbar-brand {
   color: #8e5c64 !important;
   font-size: 1.5rem;

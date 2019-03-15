@@ -84,10 +84,6 @@ Bootstrap navbars were rewritten to use flexbox and replaced ".nav > li > a" wit
 * uses "card" -- combo of "panels", "thumbnails", "wells"
 * no css (except for background image) -- all bootstrap classes
 ### Grid Flexbox
+* grid classes have display flex by default.
 ### Museum of Candy
 * You need ".navbar.navbar-expand" in order for .nav-item's to align horizontally.
-* pink = #f7d3dc
-* "candy" = #8e5c64
-* white = #fff8fc
-* navbar links -- color on hover is "candy"
-* color on scroll #e2b6d3
