@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   background: #f7d3dc;
 }
 
@@ -32,6 +32,7 @@ body {
 }
 
 .nav-link {
+  text-shadow: 1px 1px #8e5c64;
   color: #fff8fc !important;
   text-decoration: none;
 }
@@ -40,11 +41,38 @@ body {
   color: #8e5c64 !important;
 }
 
-.header .__image {
+.header {
+  text-align: justify;
+}
+
+.header__row {
+  align-content: flex-start;
+}
+
+.header__image {
+  outline: 1px solid lightblue;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header__image img {
   width: 100%;
 }
 
-.header .col-md-6:nth-of-type(2) {
-  padding-right: 0;
-  padding-left: 0;
+.header__text {
+  font-size: 4vw;
+  flex-direction: column;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: whitesmoke;
+  font-weight: bold;
+  text-shadow: 1px 1px #8e5c64;
+}
+
+.header__text p {
+  margin: 0;
+}
+
+.header__text p span {
+  color: #8e5c64;
 }
