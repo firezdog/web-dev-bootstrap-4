@@ -41,16 +41,8 @@ body {
   color: #8e5c64 !important;
 }
 
-.header {
-  text-align: justify;
-}
-
-.header__row {
-  align-content: flex-start;
-}
-
 .header__image {
-  outline: 1px solid lightblue;
+  border: 1px solid lightblue;
   padding-right: 0;
   padding-left: 0;
 }
@@ -63,7 +55,7 @@ body {
   font-size: 4vw;
   flex-direction: column;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
   color: whitesmoke;
   font-weight: bold;
   text-shadow: 1px 1px #8e5c64;
