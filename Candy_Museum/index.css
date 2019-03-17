@@ -1,57 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 
-body {
+body.candy-museum {
   font-family: 'Shadows Into Light', cursive;
   background: #f7d3dc;
 }
 
-.navbar {
+.candy-museum .navbar {
   background-color: transparent;
   text-transform: uppercase;
   transition: background-color 1s;
   font-size: 1.5rem;
   padding: 0 0 0 1rem;
+  font-weight: bold;
 }
 
-.navbar-toggler {
+.candy-museum .navbar-toggler {
   margin-right: 0.5rem;
 }
 
-.navbar--scrolled {
+.candy-museum .navbar--scrolled {
   background-color: #e2b6d3;
   transition: background-color 1s;
 }
 
-.nav-item, .nav-link {
+.candy-museum .nav-item, .candy-museum .nav-link {
   width: fit-content;
 }
 
-.navbar-brand {
+.candy-museum .navbar-brand {
   color: #8e5c64 !important;
   font-size: 1.5rem;
 }
 
-.nav-link {
+.candy-museum .nav-link {
   text-shadow: 1px 1px #8e5c64;
   color: #fff8fc !important;
   text-decoration: none;
 }
 
-.nav-link:hover {
+.candy-museum .nav-link:hover {
   color: #8e5c64 !important;
 }
 
-.header__image {
-  border: 1px solid lightblue;
-  padding-right: 0;
-  padding-left: 0;
+.candy-museum .header, .candy-museum .content {
+  align-items: center;
+  text-align: center;
 }
 
-.header__image img {
+.candy-museum .header__image, .candy-museum .content__image {
+  outline: 1px solid lightblue;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.candy-museum .header__image img, .candy-museum .content__image img {
   width: 100%;
 }
 
-.header__text {
+.candy-museum .header__text {
   font-size: 4vw;
   flex-direction: column;
   text-transform: uppercase;
@@ -61,10 +69,36 @@ body {
   text-shadow: 1px 1px #8e5c64;
 }
 
-.header__text p {
+.candy-museum .header__text p {
   margin: 0;
 }
 
-.header__text p span {
+.candy-museum .header__text p span {
   color: #8e5c64;
+}
+
+.candy-museum .content__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #f498b8;
+  font-size: 3vh;
+  margin: 0;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .candy-museum .content__text {
+    height: 450px;
+    font-size: 3.5vh;
+  }  
+}
+
+.candy-museum .content__text .content__title {
+  color: #8e5c64;
+  text-transform: uppercase;
+}
+
+.candy-museum .content__text .content__icon {
+  align-self: center;
+  width: 75px;
 }

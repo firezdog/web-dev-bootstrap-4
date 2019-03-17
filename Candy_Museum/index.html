@@ -8,28 +8,28 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
 </head>
-<body>
-  <nav class="navbar navbar-expand-md navbar-light fixed-top">
-    <a href="#" class="navbar-brand">Candy</a>
-    <button class="navbar-toggler" data-target=".navbar-collapse" data-toggle="collapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse">
-      <ul class="d-lg-flex align-items-lg-center navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Tickets</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <section class="header container-fluid">
-    <div class="header__row row align-items-center text-center">
+<body class="candy-museum">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+      <a href="#" class="navbar-brand">Candy</a>
+      <button class="navbar-toggler" data-target=".navbar-collapse" data-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="d-lg-flex align-items-lg-center navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tickets</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="header row">
       <div class="header__text col-md-6 d-none d-sm-none d-md-flex">
         <p>Museum<span>/</span>Of<span>/</span>Candy</p>
         <p>Museum<span>/</span>Of<span>/</span>Candy</p>
@@ -41,8 +41,38 @@
       <div class="header__image col-12 col-md-6">
         <img src="images/hand2.png"/>
       </div>
-    </div>
-  </section>
+    </section>
+    <section class="content row flex-column-reverse flex-md-row">
+      <div class="content__image col-12 col-md-6">
+        <img src="images/milk.png"/>
+      </div>
+      <div class="content__text col-12 col-md-6">
+        <h1 class="content__title">Museum Of Candy</h1>
+        <img class="content__icon d-none d-lg-flex" src="images/lolli_icon.png"/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam quos, eius laudantium et ipsa ad veritatis velit omnis expedita aspernatur id iure numquam soluta adipisci blanditiis voluptates delectus eos.</p>
+      </div>
+    </section>
+    <section class="content row flex-column-reverse flex-md-row-reverse">
+      <div class="content__image col-12 col-md-6">
+        <img src="images/gumball.png"/>
+      </div>
+      <div class="content__text row col-12 col-md-6">
+        <h1 class="content__title">Museum Of Candy</h1>
+        <img class="content__icon d-none d-lg-flex" src="images/lolli_icon.png"/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam quos, eius laudantium et ipsa ad veritatis velit omnis expedita aspernatur id iure numquam soluta adipisci blanditiis voluptates delectus eos.</p>
+      </div>
+    </section>    
+    <section class="content row flex-column-reverse flex-md-row">
+      <div class="content__image col-12 col-md-6">
+        <img src="images/sprinkles.png"/>
+      </div>
+      <div class="content__text col-12 col-md-6">
+        <h1 class="content__title">Museum Of Candy</h1>
+        <img class="content__icon d-none d-lg-flex" src="images/lolli_icon.png"/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam quos, eius laudantium et ipsa ad veritatis velit omnis expedita aspernatur id iure numquam soluta adipisci blanditiis voluptates delectus eos.</p>
+      </div>
+    </section>
+  </div>
   <!-- #region bootstrap -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
