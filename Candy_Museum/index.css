@@ -86,6 +86,10 @@ body.candy-museum {
   margin: 0;
 }
 
+.candy-museum .content__text p {
+  padding: 10px;
+}
+
 @media only screen and (max-width: 767.98px) {
   .candy-museum .content__text {
     height: 450px;
